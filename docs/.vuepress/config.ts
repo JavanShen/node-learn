@@ -6,7 +6,9 @@ const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
     lang: 'zh-CN',
-    title: 'Nodo.js笔记',
+    title: 'NodeNote',
+    description: 'Node.js笔记',
+    head: [['link', { rel: 'icon', href: '/Nodejs.png' }]],
     markdown: {
         importCode: {
             handleImportPath: str =>
