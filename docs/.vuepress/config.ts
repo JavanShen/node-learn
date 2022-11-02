@@ -10,7 +10,7 @@ export default defineUserConfig({
   markdown: {
     importCode: {
       handleImportPath: (str) =>
-        str.replace(/^@/, path.resolve(__dirname, "../code")),
+        str.replace(/^@/, path.resolve(__dirname, "../../code")),
     },
   },
   theme: defaultTheme({
