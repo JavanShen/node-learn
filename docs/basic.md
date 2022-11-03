@@ -4,6 +4,8 @@
 
 不同的模块规范，Node.js 实现了 CJS，ES6 实现了 ESM
 
+> 在`package.json`中添加`"type": "module"`可以在 Node.js 中使用 ESM
+
 <CodeGroup>
 <CodeGroupItem title="ESM">
 
