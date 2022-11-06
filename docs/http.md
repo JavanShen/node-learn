@@ -98,3 +98,17 @@ res.write(renderHtml(url))
 ```
 
 有关 url 的更多内容可以查看 [url 模块](./url.md)
+
+## JSONP
+
+JSONP 是一种跨域手段，主要原理就是利用了 `script` 标签的 src 请求不受同源限制，去请求一个 js 文件，文件中执行我们指定的方法同时将我们需要的数据作为参数传递进去
+
+现在我们通过 Node.js 去实现一个 JSONP 接口
+
+@[code](@/http/jsonp/index.js)
+
+接着编写前端的请求
+
+@[code](@/http/jsonp/index.html)
+
+然后在不同的端口号上打开页面，可以看到控制台成功输出了数据
