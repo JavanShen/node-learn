@@ -183,3 +183,17 @@ request(data => {
     res.end(data)
 })
 ```
+
+## 爬虫
+
+当把 [get](./http.md#get) 中的 api 换成网址后就可以直接获取到 html 文本，接着我们使用 [cheerio](https://cheerio.js.org/) 这个库对文本进行解析 (当然，如果你想用正则表达式也可以)
+
+@[code{6-32}](@/http/spider/index.js)
+
+使用
+
+```js
+spider(data => {
+    res.end(data)
+})
+```
