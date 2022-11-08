@@ -10,7 +10,9 @@ const sidebar: SidebarConfig = {
                 'basic.md',
                 'http.md',
                 'url.md',
-                'querystring.md'
+                'querystring.md',
+                'events.md',
+                'fs.md'
             ]
         }
     ]
