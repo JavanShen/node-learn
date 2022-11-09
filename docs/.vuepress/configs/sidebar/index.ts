@@ -12,7 +12,9 @@ const sidebar: SidebarConfig = {
                 'url.md',
                 'querystring.md',
                 'events.md',
-                'fs.md'
+                'fs.md',
+                'zlib.md',
+                'crypto.md'
             ]
         }
     ]
