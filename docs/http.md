@@ -37,6 +37,18 @@ const http = require('http')
 
 包含了请求时的信息，比如 url
 
+处理 post 请求
+
+```js
+let data = ''
+req.on('data', chunk => {
+    data += chunk
+})
+req.on('end', () => {
+    console.log(data)
+})
+```
+
 ### res
 
 调用 `res.write()` 可以返回内容给客户端，最后需要调用 `res.end()` 来结束返回
