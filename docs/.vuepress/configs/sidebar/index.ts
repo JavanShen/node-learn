@@ -14,7 +14,8 @@ const sidebar: SidebarConfig = {
                 'events.md',
                 'fs.md',
                 'zlib.md',
-                'crypto.md'
+                'crypto.md',
+                'dependencies.md'
             ]
         }
     ]
