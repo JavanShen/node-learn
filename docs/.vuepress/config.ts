@@ -20,6 +20,10 @@ export default defineUserConfig({
             '/': {
                 sidebar
             }
-        }
+        },
+        repo: 'https://github.com/JavanShen/node-learn',
+        docsBranch: 'main',
+        editLinkText: '在 GitHub 上编辑此页',
+        editLinkPattern: ':repo/edit/:branch/docs/:path'
     })
 })
