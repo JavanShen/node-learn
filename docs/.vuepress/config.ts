@@ -1,4 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 import { getDirname, path } from '@vuepress/utils'
 import { sidebar } from './configs'
 
@@ -25,5 +26,6 @@ export default defineUserConfig({
         docsBranch: 'main',
         editLinkText: '在 GitHub 上编辑此页',
         editLinkPattern: ':repo/edit/:branch/docs/:path'
-    })
+    }),
+    plugins: [searchPlugin({})]
 })
