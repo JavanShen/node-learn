@@ -16,7 +16,8 @@ const sidebar: SidebarConfig = {
                 'zlib.md',
                 'crypto.md',
                 'dependencies.md',
-                'router.md'
+                'router.md',
+                'framework.md'
             ]
         }
     ]
